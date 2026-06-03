@@ -1,4 +1,4 @@
-import { createClient } from "@supabase/supabase-js"
+import { createClient } from "../../../../lib/supabase.js"
 import { RICHMENUS } from "../../../../lib/richmenus"
 
 const supabase = createClient(
